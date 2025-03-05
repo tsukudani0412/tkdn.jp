@@ -71,7 +71,7 @@ createRoot(document.getElementById('root')).render(
           </div>
         </div>
       </div>
-      <div className="space-y-16">
+      <div className="space-y-16  w-full">
         <motion.section
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
