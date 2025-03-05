@@ -13,16 +13,16 @@ createRoot(document.getElementById('root')).render(
 	  <title>tkdn.jp</title>
 	</head>
     <div className="flex flex-col items-start justify-center min-h-screen bg-white text-gray-900 p-5 max-w-3xl mx-auto">
-      <div className="flex items-center w-full mb-10">
+      <div className="flex flex-col sm:flex-row items-center w-full mb-10">
         <motion.img
           src="/profile.png"
           alt="Profile Icon"
-          className="w-60 h-60 rounded-full border-4 border-blue-400 mr-6"
+          className="w-60 h-60 rounded-full border-4 border-blue-400 mb-4 sm:mb-0 sm:mr-6"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         />
-        <div>
+        <div className="text-center sm:text-left">
           <h1 className="text-3xl font-bold">Tsukudani</h1>
           <p className="text-gray-600 text-left ml-3">応用起床技術者，寝スペ</p>
           {console.log("Rendering Social Icons")}
