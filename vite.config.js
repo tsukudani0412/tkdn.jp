@@ -9,13 +9,13 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  root: resolve(__dirname, "./src"),
+  root: resolve(__dirname, "./"),
   build: {
     outDir: resolve(__dirname, "dist"),
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'src/index.html'),
-        tos: resolve(__dirname, 'src/tos.html'),
+        main: resolve(__dirname, 'index.html'),
+        tos: resolve(__dirname, 'tos.html'),
       },
     },
   },
