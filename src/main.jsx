@@ -12,14 +12,16 @@ createRoot(document.getElementById('root')).render(
 
     <div className="flex flex-col items-start justify-center min-h-screen bg-white text-gray-900 p-5 max-w-3xl mx-auto">
       <div className="flex flex-col sm:flex-row items-center w-full mb-10">
-        <motion.img
-          src="/profile.png"
-          alt="Profile Icon"
-          className="w-60 h-60 rounded-full border-4 border-blue-400 mb-4 sm:mb-0 sm:mr-6"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-        />
+        <a href="/profile.png">
+          <motion.img
+            src="/profile.webp"
+            alt="Profile Icon"
+            className="w-60 h-60 rounded-full border-4 border-blue-400 mb-4 sm:mb-0 sm:mr-6"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          />
+        </a>
         <div className="text-center sm:text-left">
           <h1 className="text-3xl font-bold">Tsukudani</h1>
           <p className="text-gray-600 text-left ml-3">応用起床技術者，寝スペ</p>
