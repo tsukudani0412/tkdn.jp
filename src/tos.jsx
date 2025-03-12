@@ -7,7 +7,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
 
     <div className="flex flex-col items-start justify-center min-h-screen bg-white text-gray-900 p-5 max-w-3xl mx-auto">
-      <div className="space-y-16  w-full">
+      <div className="w-full">
         <h2 className="text-2xl font-semibold mb-2 text-left">Wi-Fi利用規約</h2>
         <div className="text-gray-700 space-y-4 text-left">
           <div className="relative pl-4">              
@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
           </div>
         </div>
       </div>
-      <div className="space-y-16  w-full">
+      <div className="w-full">
         <h2 className="text-2xl font-semibold mt-10 mb-2 text-left">Wi-Fi Terms of Service</h2>
         <div className="text-gray-700 space-y-4 text-left">
           <div className="relative pl-4">              
